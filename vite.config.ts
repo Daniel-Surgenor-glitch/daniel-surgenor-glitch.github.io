@@ -8,8 +8,11 @@ export default defineConfig(({mode}) => {
   return {
     base: '/',
     plugins: [react(), tailwindcss()],
+    // SECURITY WARNING: Do not expose API keys in the frontend bundle for production.
+    // If you need AI functionality on GitHub Pages (static), the key will be public.
+    // Ensure you restrict the key to your domain (www.surgenorplastering.com) in Google AI Studio.
     define: {
-      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY || ''),
+      // GEMINI_API_KEY removed from define block to prevent exposure in JS bundle.
     },
     resolve: {
       alias: {

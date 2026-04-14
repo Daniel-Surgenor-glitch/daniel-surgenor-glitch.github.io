@@ -9,7 +9,7 @@ export default function CourseInfo() {
       <Helmet>
         <title>Plastering Course Belfast | Learn Plastering & Skimming | Surgenor Plastering</title>
         <meta name="description" content="Master the art of plastering with our 3-day hands-on course in Belfast. Learn skimming, rendering, and plasterboarding from experts. Perfect for beginners and DIYers." />
-        <link rel="canonical" href="https://surgenor-plastering.co.uk/plastering-course" />
+        <link rel="canonical" href="https://www.surgenorplastering.com/plastering-course" />
       </Helmet>
 
       {/* Hero Section */}

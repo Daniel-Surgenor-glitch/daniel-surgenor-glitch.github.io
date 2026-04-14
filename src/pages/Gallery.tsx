@@ -23,7 +23,7 @@ export default function Gallery() {
       <Helmet>
         <title>Plastering Gallery Belfast | Our Recent Work | Surgenor Plastering</title>
         <meta name="description" content="View our gallery of professional plastering projects in Belfast. See examples of our expert skimming, rendering, and warm wall systems." />
-        <link rel="canonical" href="https://surgenor-plastering.co.uk/gallery" />
+        <link rel="canonical" href="https://www.surgenorplastering.com/gallery" />
       </Helmet>
       <div className="bg-gray-50 py-16 px-4 text-center border-b border-gray-200">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-900">Our Portfolio</h1>

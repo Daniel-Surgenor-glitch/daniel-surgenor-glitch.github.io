@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://surgenor-plastering.co.uk/sitemap.xml
+Sitemap: https://www.surgenorplastering.com/sitemap.xml

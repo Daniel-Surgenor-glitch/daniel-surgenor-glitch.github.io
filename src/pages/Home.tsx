@@ -42,7 +42,7 @@ export default function Home() {
       <Helmet>
         <title>Surgenor Plastering | Expert Plasterer Belfast | Skimming & Rendering</title>
         <meta name="description" content="Looking for a professional plasterer in Belfast? Surgenor Plastering offers expert skimming, rendering, and plasterboarding services. High-quality finish guaranteed." />
-        <link rel="canonical" href="https://surgenor-plastering.co.uk/" />
+        <link rel="canonical" href="https://www.surgenorplastering.com/" />
       </Helmet>
 
       {/* Hero Section */}
