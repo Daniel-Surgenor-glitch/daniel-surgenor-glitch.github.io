@@ -12,7 +12,8 @@ export default defineConfig(({mode}) => {
     // If you need AI functionality on GitHub Pages (static), the key will be public.
     // Ensure you restrict the key to your domain (www.surgenorplastering.com) in Google AI Studio.
     define: {
-      // GEMINI_API_KEY removed from define block to prevent exposure in JS bundle.
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY || ''),
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
     },
     resolve: {
       alias: {
