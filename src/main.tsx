@@ -34,12 +34,20 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundarySta
   }
 }
 
-createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <ErrorBoundary>
-      <HelmetProvider>
-        <App />
-      </HelmetProvider>
-    </ErrorBoundary>
-  </React.StrictMode>
-);
+console.log('Main script starting...');
+const rootElement = document.getElementById('root');
+console.log('Root element:', rootElement);
+
+if (!rootElement) {
+  console.error('Failed to find root element');
+} else {
+  createRoot(rootElement).render(
+    <React.StrictMode>
+      <ErrorBoundary>
+        <HelmetProvider>
+          <App />
+        </HelmetProvider>
+      </ErrorBoundary>
+    </React.StrictMode>
+  );
+}

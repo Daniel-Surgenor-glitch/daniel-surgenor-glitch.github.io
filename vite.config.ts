@@ -13,7 +13,6 @@ export default defineConfig(({mode}) => {
     // Ensure you restrict the key to your domain (www.surgenorplastering.com) in Google AI Studio.
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY || ''),
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
     },
     resolve: {
       alias: {
